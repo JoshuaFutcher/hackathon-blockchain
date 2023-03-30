@@ -9,5 +9,6 @@ The backend is written in Solidity and is deployed on a test network called Sepo
 It also currently does not have functionality for taking any real payments, but instead some functionality for a fake balance stored on the smart contract itself.
 Maybe the frontend could have some method for a user to add to the balance or deal with transfering eth directly from auction buyer to auction seller.
 
+0xEad13bd2f67a82F726f17127656A6aB8aaA37be2 is the address of the deployed smart contract.
 
 Unfortunately, we did not have time to link the backend to the front-end.

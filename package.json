@@ -1,0 +1,23 @@
+{
+  "name": "hackathon-hardhat",
+  "version": "1.0.0",
+  "description": "Hackathon Blockchain Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaFutcher/hackathon-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaFutcher/hackathon-blockchain/issues"
+  },
+  "homepage": "https://github.com/JoshuaFutcher/hackathon-blockchain#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0"
+  }
+}

@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# Hackathon Blockchain Submission
+Louie Doswell and Joshua Stewart Futcher
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Using Hardhat as a development environment, we have created a decentralised token auctioning system.
 
-Try running some of the following tasks:
+The frontend was built using React and communicates with the smart contract using ethers.js.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The backend is written in Solidity and is deployed on a test network called Sepolia, meaning it has zero cost to run.
+It also currently does not have functionality for taking any real payments, but instead some functionality for a fake balance stored on the smart contract itself.
+Maybe the frontend could have some method for a user to add to the balance or deal with transfering eth directly from auction buyer to auction seller.
+
+0xEad13bd2f67a82F726f17127656A6aB8aaA37be2 is the address of the deployed smart contract.
+
+Unfortunately, we did not have time to link the backend to the front-end.

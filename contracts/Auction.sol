@@ -23,7 +23,7 @@ contract Auction {
 
     function newBid(uint256 auction, uint256 amount) external returns (uint16) {
         address buyer = msg.sender;
-        if ((auctionDetails[auction].reservePrice >= amount) || auctionDetails[auction].endPrice > amount || balances[buyer]< amount) {
+        if ((auctionDetails[auction].reservePrice >= amount) || auctionDetails[auction].endPrice > amount) {// || balances[buyer]< amount) {
             return 1; // Insufficient funds
         } else {
             auctionDetails[auction].buyer = buyer;
@@ -47,7 +47,7 @@ contract Auction {
         } else {
             tokenOwners[msg.sender] = 1;
             accounts[msg.sender] = true;
-            balances[msg.sender] = 999999;
+            //balances[msg.sender] = 999999;
             return false;
         }
     }
